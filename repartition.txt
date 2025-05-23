@@ -1,0 +1,46 @@
+fleche-argent-backend/
+├── admin
+│   ├── DeletAvis.js -- Stevens
+│   ├── DeletUser.js -- Stevens
+│   ├── GetContact.js -- Stevens
+│   ├── GetServices.js -- Stevens
+│   └── GetUsers.js -- Stevens
+├── auth
+│   ├── auth.js -- Thibaut
+│   ├── connexion.js -- Thibaut
+│   ├── deconnexion.js -- Thibaut
+│   ├── inscription.js -- Thibaut
+│   ├── isAdmin.js -- Thibaut
+│   ├── middleware.js -- Thibaut
+│   ├── motdepasse_oublie.js -- Thibaut
+│   ├── refresh_token.js -- Thibaut
+│   ├── reinitialisation.js -- Thibaut
+│   ├── rememberme.js -- Thibaut
+│   ├── user.js -- Thibaut
+│   └── validation.js -- Thibaut
+├── Avis
+│   └── PutAvis.js -- Stevens
+├── config
+│   └── db.js -- Thibaut
+├── Contact
+│   └── PostContact.js
+├── index.js  -- Thibaut, Stevens
+├── package.json
+├── package-lock.json
+├── README.md
+├── repartition.txt
+├── reservation
+│   └── index.js -- Thibaut
+├── services
+│   ├── captcha.js -- Thibaut
+│   ├── gmail.js -- Thibaut
+│   └── google
+│       ├── Google OAuth API.png
+│       ├── oauth.js -- Thibaut
+│       └── request.js -- Thibaut
+├── templates
+│   ├── forgot_mdp.html -- Thibaut
+│   └── reset_mdp.html -- Thibaut
+└── user
+    ├── Getinfo.js -- Stevens
+    └── UpdateUser.js -- Stevens
